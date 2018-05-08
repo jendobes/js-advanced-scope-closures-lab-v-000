@@ -13,3 +13,9 @@ function produceDrivingRange(blockRange){
     return miles < blockRange ? `within range by ${span}` : `${span} blocks out of range`
     }
   }
+
+  function produceTipCalculator() {
+    function(){
+      
+    }
+  }
