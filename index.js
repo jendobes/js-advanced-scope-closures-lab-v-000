@@ -14,6 +14,7 @@ function produceDrivingRange(blockRange){
 
   function produceDrivingRange(blockRange){
     return function(miles) {
-      return miles < blockRange
+      let span = Math.abs(blockRange - miles)
+      return miles < blockRange :
       }
     }
