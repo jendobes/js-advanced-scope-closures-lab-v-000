@@ -13,7 +13,7 @@ function produceDrivingRange(blockRange){
     return miles < blockRange ? `within range by ${span}` : `${span} blocks out of range`
     }
   }
-  // 
+  //
   // function produceTipCalculator(percentage) {
   //   function(fare){
   //     return fare*percentage
@@ -23,7 +23,8 @@ function produceDrivingRange(blockRange){
   function createDriver() {
     let driverId = 0
     return class {
-      constructor() {
+      constructor(name) {
+        this.name = name
         this.id = ++driverId
       }
     }
