@@ -14,11 +14,11 @@ function produceDrivingRange(blockRange){
     }
   }
   //
-  // function produceTipCalculator(percentage) {
-  //   function(fare){
-  //     return fare*percentage
-  //   }
-  // }
+  function produceTipCalculator(percentage) {
+    return function(fare){
+      return fare*percentage
+    }
+  }
 
   function createDriver() {
     let driverId = 0
