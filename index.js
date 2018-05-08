@@ -16,6 +16,15 @@ function produceDrivingRange(blockRange){
 
   function produceTipCalculator() {
     function(){
-      
+
+    }
+  }
+
+  function createDriver() {
+    let driverId = 0
+    return class {
+      constructor() {
+        this.id = ++driverId
+      }
     }
   }
