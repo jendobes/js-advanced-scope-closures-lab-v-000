@@ -5,8 +5,8 @@
 // }
 
 
-function produceDrivingRange(range){
+function produceDrivingRange(blockRange){
   return function(miles) {
-    return miles < range
+    return miles < blockRange
   }
 }
