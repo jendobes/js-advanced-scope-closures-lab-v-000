@@ -13,12 +13,12 @@ function produceDrivingRange(blockRange){
     return miles < blockRange ? `within range by ${span}` : `${span} blocks out of range`
     }
   }
-
-  function produceTipCalculator(percentage) {
-    function(fare){
-      return fare*percentage
-    }
-  }
+  // 
+  // function produceTipCalculator(percentage) {
+  //   function(fare){
+  //     return fare*percentage
+  //   }
+  // }
 
   function createDriver() {
     let driverId = 0
