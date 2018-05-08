@@ -10,3 +10,10 @@ function produceDrivingRange(blockRange){
     return (miles < blockRange ? `within range by ${blockRange - miles}` : `${miles - blockRange} out of range`)
     }
   }
+
+
+  function produceDrivingRange(blockRange){
+    return function(miles) {
+      return miles < blockRange
+      }
+    }
